@@ -1,0 +1,36 @@
+
+.center, .fade {width: 1000px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    opacity: 1;}
+
+.slick-prev:before {
+content: '==';
+}
+.slick-prev:before, .slick-next:before {
+font-family: 'slick';
+font-size: 20px;
+line-height: 1;
+opacity: .75;
+color: rgb(18, 50, 233);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next:before {
+content: '==';
+}
+.slick-prev:before, .slick-next:before {
+font-family: 'slick';
+font-size: 20px;
+line-height: 1;
+opacity: .75;
+color: rgb(18, 32, 231);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.img {margin-left: auto;
+margin-right: auto;}
